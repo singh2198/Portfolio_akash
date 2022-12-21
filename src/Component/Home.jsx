@@ -1,0 +1,48 @@
+import React from 'react';
+import akashimg from "../assets/akashimg.jpg"
+import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+// import { Link } from "react-scroll";
+import { Link } from 'react-scroll';
+
+
+const Home = () => {
+    return (
+        <div  name="home" className=' h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>
+
+            <div className='     mx-auto max-w-5xl grid grid-flow-row items-center justify-cente  h-full px-4  md:grid-flow-col'>
+                    <div className='flex flex-col justify-center max-h-max'>
+
+                        <h1 className= 'text-4xl sm:text-7xl font-bold text-white '>I'm a Full Stack Developer</h1>
+                        <p className="text-gray-400 py-3 sm:py-3 max-w-md">I have 8 years of experience building and desgining software.
+                                Currently, I love to work on web application using technologies like
+                                React, Tailwind, Next JS and GraphQL.</p>
+
+
+                        {/*  Porfolio  Buttton  */}
+                        <div>
+                            <Link to='' smooth duration={'500'} 
+                            className=' group text-white w-fit px-6 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer ' >Portfolio
+                            <span className='group-hover:rotate-90 duration-300 h-10'>
+                                <MdOutlineKeyboardArrowRight size={30}  className='ml-1 mt-1'/>
+                            </span>
+                            </Link>
+                        </div>
+
+                    </div>
+
+
+                        <div className=' h-3/4 sm:h-1/2 '>
+
+                        <img src={akashimg}
+                        alt="img" className="rounded-2xl mx-auto w-full "/>
+                        </div>
+
+            </div>
+
+            
+
+        </div>
+    );
+}
+
+export default Home;
