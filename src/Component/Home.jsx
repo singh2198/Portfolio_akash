@@ -13,9 +13,12 @@ const Home = () => {
                     <div className='flex flex-col justify-center max-h-max'>
 
                         <h1 className= 'text-4xl sm:text-7xl font-bold text-white '>I'm a Full Stack Developer</h1>
-                        <p className="text-gray-400 py-3 sm:py-3 max-w-md">I have 8 years of experience building and desgining software.
-                                Currently, I love to work on web application using technologies like
-                                React, Tailwind, Next JS and GraphQL.</p>
+                        <p className="text-gray-400 py-3 sm:py-3 max-w-md">
+                            Hy iam Full Stack Web Developer i complete my Btech in (IT) , i have hand on practice on React.js in frondend
+                            and node.js in backend .I love to work on web application using technologies like
+                            React, Tailwind ,Typescript. Currently looking for a job opportunity in a
+                            technology-driven organization.
+                            </p>
 
 
                         {/*  Porfolio  Buttton  */}

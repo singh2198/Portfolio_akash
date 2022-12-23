@@ -10,11 +10,15 @@ const About = () => {
                 </div>
 
               
-                    <p className="text-xl mt-4">Aspiring Full Stack MERN Developer
-                     ,enthusiastic to learn and explore new technologies.
-                      Having Knowledge in React.js Frontend and Node.js in Backend technologies.
-                       In journey with masai i learn lots of thing,do 4 Project 2 ,solo and 2 in team .
-                        Currently looking for a job opportunity in a technology-driven organization.</p>
+                    <p className="text-xl mt-4">Aspiring Full Stack MERN Developer,
+                                        enthusiastic to learn and explore new
+                                        technologies. Having Knowledge in
+                                        React.js Frontend and Node.js in Backend . In
+                                        journey with Masai i have 35 weeks of coding
+                                        experiance and learn lots of things,i Complete
+                                        my 4 Major Projects 2 solo and 2 Colaboration.
+                                        Currently looking for a job opportunity in a
+                                        technology-driven organization.</p>
                         <br/>
                     {/* <p className="text-xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Alias facere fugiat, accusantium atque illo similique earum aliquam quos 
