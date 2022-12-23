@@ -2,13 +2,14 @@ import React from 'react';
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useState } from 'react';
 // import Home from './Home';
-
+import {Link} from "react-scroll"
+ 
 const Nav = () => {
 
     const [navbar,setbar] = useState(false)
     // console.log(navbar)
 
-    const Link=[
+    const Linkk=[
         {id:1,
         link:"home"
         },
@@ -16,13 +17,13 @@ const Nav = () => {
         link:"about"
         },
         {id:3,
-        link:"experiance"
+        link:"project"
         },
         {id:4,
-        link:"resume"
+        link:"experiance"
         },
         {id:5,
-        link:"project"
+        link:"contact"
         }
     ]
         
@@ -36,9 +37,16 @@ const Nav = () => {
                 </div>
 
                 <div className=' hidden md:flex  '> 
-                    {Link.map(({id,link})=>{
+                    {Linkk.map(({id,link})=>{
                         return(
-                            <p  key={id} className=' px-2 capitalize hover:scale-105 duration-100 cursor-pointer text-gray-500 font-medium'>{link}</p>
+                            <p  key={id} className=' px-2 capitalize hover:scale-105 duration-100 cursor-pointer text-gray-500 font-medium'>
+                                
+                                <Link 
+                                // onClick={() => setbar(!navbar)}
+                                to={link} 
+                                smooth 
+                                duration={500}>{link}</Link>
+                            </p>
                             )
                         })}
                 </div>
@@ -57,9 +65,16 @@ const Nav = () => {
                 { navbar && (
                 <ul className='flex  flex-col justify-center items-center absolute top-0 left-0 w-full h-screen text-gray-400  bg-gradient-to-b from-black to-gray-800 '>
 
-                {Link.map(({id,link})=>{
+                {Linkk.map(({id,link})=>{
                         return(
-                            <p  key={id} className='px-6 cursor-pointer py-6 text-gray-400 text-4xl capitalize'>{link}</p>
+                            <p  key={id} className='px-6 cursor-pointer py-6 text-gray-400 text-4xl capitalize'>
+                                 <Link 
+                                onClick={() => setbar(!navbar)}
+                                to={link} 
+                                smooth 
+                                duration={500}>{link}</Link>
+                            </p>
+                            
                             )
                         })}
                 </ul>

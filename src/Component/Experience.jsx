@@ -60,20 +60,20 @@ const projects=[
 
 
     return (
-        <div name="project" className='bg-gradient-to-b from-black to-gray-800 w-full md:h-full text-white'>
+        <div name="experiance" className='bg-gradient-to-b from-black to-gray-800 w-full md:h-full text-white '>
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
                 
 
 
-                <div className='pb-8'>
-                    <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Project</p>
-                    <p className='py-6'>Check out some of my work right here</p>
+                <div className='pb-8 mt-10'>
+                    <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Experiance</p>
+                    {/* <p className='py-6'></p> */}
                 </div>
             </div>
 
-            <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0  md:mx-20 '>
+            <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-20 px-20 sm:px-0  md:mx-20 mt-5'>
                 {projects.map(({id,src ,style,title})=>(
-                    <div key={id} className={`shadow-md shadow-gray-600 rounded-lg  hover:cursor-pointer hover:scale-105 ${style} `}>
+                    <div key={id} className={`shadow-lg  rounded-lg ${style} hover:cursor-pointer hover:scale-105 `}>
                          {/* <img src={src} 
                             alt=""
                           className={`rounded-md duration-200 hover:scale-105 ${style}`}/> */}

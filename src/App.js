@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import About from './Component/About';
+import Contact from './Component/Contact';
 import Experience from './Component/Experience';
 import Home from './Component/Home';
 // import { BrowserRouter } from 'react-router-dom';
@@ -20,6 +21,7 @@ function App() {
     <About/>
     <Project/>
     <Experience/>
+    <Contact/>
 
     <SocialLinks/>
 

@@ -23,8 +23,8 @@ const Home = () => {
 
                         {/*  Porfolio  Buttton  */}
                         <div>
-                            <Link to='' smooth duration={'500'} 
-                            className=' group text-white w-fit px-6 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer ' >Portfolio
+                            <Link to="project" smooth duration={500} 
+                            className=' group text-white w-fit px-6 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer ' >Project
                             <span className='group-hover:rotate-90 duration-300 h-10'>
                                 <MdOutlineKeyboardArrowRight size={30}  className='ml-1 mt-1'/>
                             </span>

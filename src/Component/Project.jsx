@@ -11,11 +11,11 @@ const Project = () => {
 const projects=[
     {
         id:1,
-        src:arrayDestruct
+        src:navbar
     },
     {
         id:2,
-        src:reactParallax
+        src:navbar
     },
     {
         id:3,
@@ -27,11 +27,11 @@ const projects=[
     },
     {
         id:5,
-        src:installNode
+        src:navbar
     },
     {
         id:6,
-        src:reactWeather
+        src:navbar
     },
     
 
