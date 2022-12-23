@@ -23,7 +23,7 @@ const projects=[
     },
     {
         id:4,
-        src:reactSmooth
+        src:navbar
     },
     {
         id:5,
