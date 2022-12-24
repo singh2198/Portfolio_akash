@@ -17,13 +17,13 @@ function App() {
     <>
     
     <Nav/>
-    <Home/>
+    {/* <Home/>
     <About/>
     <Project/>
     <Experience/>
     <Contact/>
 
-    <SocialLinks/>
+    <SocialLinks/> */}
 
     </>
   );
